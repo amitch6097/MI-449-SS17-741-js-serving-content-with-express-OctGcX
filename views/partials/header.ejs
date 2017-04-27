@@ -1,0 +1,10 @@
+<header>
+  <ul>
+    <li><a href="/"><h2>Best Places to Get Breakfast</h2></a></li>
+
+  <% Object.keys(links).forEach(function (id) { %>
+    <li><a href='<%= links[id].page %>'><h2><%= links[id].title %></h2></a></li>
+  <% }) %>
+  </ul
+</header>
+<link href="/css/style.css" rel="stylesheet" type="text/css">
